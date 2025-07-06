@@ -1,0 +1,33 @@
+---
+alwaysApply: true
+---
+
+Take a paced approach to our experiments.
+
+Ensure consistency across code and documents.
+
+At the conclusion of a phase or troubleshooting session, we should add a labeled entry to a 'notes' directory/markdown file. 
+
+We should document our work/progress in a concise and more formal/academic tone.
+
+absolutely no emojis in any code/text/documentation
+
+Experimental/test/scrap work should be put in a scrap directory. 
+
+we should keep the project organized. Once we agree and finalize a piece of code or script we can add it to the correct directory/root folder.
+
+We need to be able to trace our progress and where we are.
+
+We also should keep an updated markdown file so that when I switch to different prompts, the new agent has an idea of where we left off and how we can continue.
+
+The project is using a machine with the following hardware:
+
+AMD 9950X3d Processor, 64GB DDR5 RAM
+Nvidia RTX 5090.
+
+The Cuda/packages should all be compatible with the RTX 5090.
+
+Ubuntu 22.04 OS
+
+Reference "Blackwell_reqs.md" for some more information on this (blackwell)
+

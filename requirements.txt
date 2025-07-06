@@ -1,0 +1,23 @@
+# Core requirements for RTX 5090 (Blackwell) experiments
+# See README.md for CUDA and PyTorch installation instructions
+
+# PyTorch and related packages (install with cu128 index URL, not via this file)
+# torch==2.7.1+cu128
+# torchvision
+# torchaudio
+
+bitsandbytes>=0.46.1
+flash-attn==2.5.6
+xformers>=0.0.28
+
+# General utilities
+numpy
+scipy
+pandas
+
+# For experiment scripts
+jupyter
+matplotlib
+
+# For unicode/latex conversion experiments (if needed)
+# unicode-math, unicode2latex, etc. (install as needed) 
