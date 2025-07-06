@@ -11,12 +11,19 @@
 - [x] Created sample equation dataset (manual extraction)
 - [x] Built testing framework with placeholder implementations
 
-### Current Phase: Phase 1 - Environment Setup
-**Next Steps**:
+### Current Phase: Phase 1 - Plurimath Testing (COMPLETED)
+**Completed**:
 1. ✅ Manually extract sample equations from test PDFs (completed)
 2. ✅ Set up evaluation framework (completed)
 3. ✅ Create individual experiment directories for each model (completed)
-4. Begin Plurimath testing (Model A) - Next priority
+4. ✅ Plurimath testing (Model A) - COMPLETED
+
+**Results Summary**:
+- Plurimath: 100% success rate, 44% accuracy, ~0.4s per equation
+- Framework enhanced with accuracy calculation and LaTeX validation
+- Ground truth established for 15 test equations
+
+**Next Priority**: Phase 2 - mathml-to-latex testing (Model B)
 
 ### Experiment Directory Structure Created
 - `plurimath_experiment/` - Priority 1 (Ruby gem, ≥98% accuracy)
